@@ -16,7 +16,7 @@ This work uses "Grey Wolf Optimizer" to forecast the day-ahead prices of a finan
 My algorithm, named "Sanitized GWO" uses Chaos Theory to generate butterfly effect in GWO. This is done by introducing Time varying accelration coefficients for simulating the locations of Alpha, Beta and Delta wolves. This improves the balance between exploration and exploitation by emulating a naturally occuring reflex action process for the wolves. See this video for more details on Chaos theory: (https://www.youtube.com/watch?v=r_5shyQGIeA).
 
 ![GWO_RBF_SVM](https://in.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/44974/versions/9/screenshot.jpg)
-* **Source:** - https://www.sciencedirect.com/science/article/pii/S0965997813001853
+* **Source:** - https://www.sciencedirect.com/science/article/pii/S0965997813001853 [1]
 
 Advanced econometric models like ARCH, GARH, ARIMA etc and deterministic models like Gradient Descent methods in Machine Learning, fail to address the aforementioned challanges associated with a noisy dataset. Therefore, using a stochastic model like GWO is much desired.  A Support Vector Regressor(SVR) as an objective function with the intent of minimizing (or maximizing) its fitness value is used to optimize the Cost (C) and Gamma(γ) hyper-parameters of SVR. Once the SVR is trained by GWO, it can be used to forecast the prices of Ethereum.
 
