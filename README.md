@@ -14,10 +14,10 @@ The Hybrid Methodology is then compared with other State-of-the-art benchmark op
 
 * **Usage:** Simple replace your dataset, change the filename and treat the first column as "Predictor variable". rest of the columns will automatically be treated as independent variables. 
 
-* **Credits ** - 
-*[1] The project was inspired by Dr Seyedali Mirjalili. The original creator of GWO method. I convereted the Matlab code to Python and created a Hybrid Model with SVR. The method is a Novel usage in the area of predicting financial securities. It is hoped to be of immense help to Intraday, interday and short term traders in the stock markets.
+* **Credits:**
+* **[1]:** The project was inspired by Dr Seyedali Mirjalili. The original creator of GWO method. I convereted the Matlab code to Python and created a Hybrid Model with SVR. The method is a Novel usage in the area of predicting financial securities. It is hoped to be of immense help to Intraday, interday and short term traders in the stock markets.
  Seyedali Mirjalili (2020). Grey Wolf Optimizer (GWO) (https://www.mathworks.com/matlabcentral/fileexchange/44974-grey-wolf-optimizer-gwo), MATLAB Central File Exchange. Retrieved May 28, 2020.
  
-*[2]. SVR Image taken for illustration from : https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-5-33
+* **[2]:**. SVR Image taken for illustration from : https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-5-33
 
 You can star the project if it userful in your forecasting casestudies.
