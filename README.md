@@ -23,4 +23,4 @@ The Hybrid Methodology is then compared with other State-of-the-art benchmark op
  
 * **[2]:**. SVR Image taken for illustration from : https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-5-33
 
-You can star the project if it userful in your forecasting casestudies.
+*If you like the project, Please leave a star to show your appreciation. 
