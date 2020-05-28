@@ -13,7 +13,7 @@ This work uses "Grey Wolf Optimizer" to forecast the day-ahead prices of a finan
 "The GWO algorithm mimics the leadership hierarchy and hunting mechanism of grey wolves in nature. Four types of grey wolves such as alpha, beta, delta, and omega are employed for simulating the leadership hierarchy. In addition, three main steps of hunting, searching for prey, encircling prey, and attacking prey, are implemented to perform optimization"[1] 
 
 * **Sanitized GWO:**
-My algorithm, named "Sanitized GWO" introduces Time varying accelration coefficients by using Chaos Theory to generate butterfly effect in GWO. This improves the balance between exploration and exploitation by emulating a naturally process. See this video for more details : (https://www.youtube.com/watch?v=r_5shyQGIeA).
+My algorithm, named "Sanitized GWO" uses Chaos Theory to generate butterfly effect in GWO. This is done by introducing Time varying accelration coefficients for simulating the locations of Alpha, Beta and Delta wolves. This improves the balance between exploration and exploitation by emulating a naturally occuring reflex action process for the wolves. See this video for more details on Chaos theory: (https://www.youtube.com/watch?v=r_5shyQGIeA).
 
 ![GWO_RBF_SVM](https://in.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/44974/versions/9/screenshot.jpg)
 * **Source:** - https://www.sciencedirect.com/science/article/pii/S0965997813001853
