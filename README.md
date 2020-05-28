@@ -1,6 +1,10 @@
 # Hybrid Grey Wolf Optimizer - Support Vector Machine
 
-**Forecast prices of financial assets using Novel GWO-SVR Hybrid Method:**
+### Simulating hunting behavior of Grey Wolfs to forecast prices of highly chaotic financial securities.
+
+**Forecasting prices of financial assets using Novel GWO-SVR Hybrid Method:** 
+
+```*Copyright© Bhaskar Tripathi,2020```
 
 This work uses "Grey Wolf Optimizer" to forecast the day-ahead prices of a financial asset (like Ethereum cryptocurrency). The Predictor variable is "US dollar exchange price" of Ethereum's blockchain. The Hybrid algorithm demonstrates the modelling of a complex case study of a chaotic dataset exhibiting properties like high-dimensionality, multimodality, non-uniformity and non-linearity. 
 
