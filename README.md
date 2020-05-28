@@ -10,4 +10,8 @@ Advanced econometric models like ARCH,GARH,ARIMA etc fails to cater the aforemen
 
 The Hybrid Methodology is then compared with other State-of-the-art benchmark optimization methodologies like Grid Search, PSO, Ant Colony Method etc. The results indicate a **superior performance** of this model over all other comparable models on evaluation measures of RMSE, MSE, MAPE, R-Square. 
 
+![GWO_RBF_SVM](https://drive.google.com/file/d/11LNlx-j2ZlFhSS5BpcAKDr1UsUXwTarZ/view?usp=sharing)
+
+* **Usage:** Simple replace your dataset, change the filename and treat the first column as "Predictor variable". rest of the columns will automatically be treated as independent variables.
+
 You can star the project if it userful in your forecasting casestudies.
