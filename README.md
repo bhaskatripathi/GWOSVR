@@ -1,21 +1,24 @@
-# Hybrid Grey Wolf Optimizer - Support Vector Machine
+# Sanitized Grey Wolf Optimizer - Support Vector Machine
 
 ### Simulating hunting behavior of Grey Wolfs to forecast prices of highly chaotic financial securities.
 
-**Forecasting prices of financial assets using Novel GWO-SVR Hybrid Method:** 
+**Forecasting prices of financial assets using Novel SGWO-SVR Method (Sanitized Grey Wolf Optimizer):** 
 
 ```*Copyright© Bhaskar Tripathi,2020```
 
-This work uses "Grey Wolf Optimizer" to forecast the day-ahead prices of a financial asset (like Ethereum cryptocurrency). The Predictor variable is "US dollar exchange price" of Ethereum's blockchain. The Hybrid algorithm demonstrates the modelling of a complex case study of a chaotic dataset exhibiting properties like high-dimensionality, multimodality, non-uniformity and non-linearity. 
+This work uses "Grey Wolf Optimizer" to forecast the day-ahead prices of a financial asset (like Ethereum cryptocurrency). The Predictor variable is "US dollar exchange price" of Ethereum's blockchain. The Hybrid algorithm demonstrates the modelling of a complex case study for a chaotic dataset exhibiting properties like high-dimensionality, multimodality, non-uniformity and non-linearity. 
 
 ![GWO](https://github.com/bhaskatripathi/GWOSVR/blob/master/gwo.gif)
 
 "The GWO algorithm mimics the leadership hierarchy and hunting mechanism of grey wolves in nature. Four types of grey wolves such as alpha, beta, delta, and omega are employed for simulating the leadership hierarchy. In addition, three main steps of hunting, searching for prey, encircling prey, and attacking prey, are implemented to perform optimization"[1] 
 
+* **Sanitized GWO:**
+My algorithm, named "Sanitized GWO" introduces Time varying accelration coefficients by using Chaos Theory to generate butterfly effect in GWO. This improves the balance between exploration and exploitation by emulating a naturally process. See this video for more details : (https://www.youtube.com/watch?v=r_5shyQGIeA).
+
 ![GWO_RBF_SVM](https://in.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/44974/versions/9/screenshot.jpg)
 * **Source:** - https://www.sciencedirect.com/science/article/pii/S0965997813001853
 
-Advanced econometric models like ARCH,GARH,ARIMA etc fail to cater the aforementioned aspects of a noisy dataset. Therefore, using a stochastic model like GWO is much desired. A Support Vector Regressor(SVR) as an objective function with the intent of minimizing (or maximizing) its fitness value is used to optimize the Cost (C) and Gamma(γ) hyper-parameters of SVR. Once the SVR is trained by GWO, it can be used to forecast the prices of Ethereum.
+Advanced econometric models like ARCH, GARH, ARIMA etc and deterministic models like Gradient Descent methods in Machine Learning, fail to address the aforementioned challanges associated with a noisy dataset. Therefore, using a stochastic model like GWO is much desired.  A Support Vector Regressor(SVR) as an objective function with the intent of minimizing (or maximizing) its fitness value is used to optimize the Cost (C) and Gamma(γ) hyper-parameters of SVR. Once the SVR is trained by GWO, it can be used to forecast the prices of Ethereum.
 
 The Hybrid Methodology is then compared with other State-of-the-art benchmark optimization methodologies like Grid Search, PSO, Ant Colony Method etc. The results indicate a **superior performance** of this model over all other comparable models on evaluation measures of RMSE, MSE, MAPE, R-Square. 
 
