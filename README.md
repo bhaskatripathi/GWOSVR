@@ -1,6 +1,6 @@
 ![CEEMDAN](https://img.shields.io/static/v1?label=License&message=MIT&color=<COLOR>)
 ![CEEMDAN](https://img.shields.io/static/v1?label=dockerbuild&message=passing&color=<COLOR>)
-![CEEMDAN](https://img.shields.io/static/v1?label=issues&message=0&color=<COLOR>)
+![CEEMDAN](https://img.shields.io/static/v1?label=issues&message=1&color=<COLOR>)
 
 # Sanitized Grey Wolf Optimizer - Support Vector Machine
 
